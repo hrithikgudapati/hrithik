@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hrithik's Property</title>
+    <style>
+        @keyframes imageAnimation {
+            0% {
+                transform: rotate(90deg) scale(1);
+            }
+
+            40% {
+                transform: rotate(90deg) scale(1.2);
+            }
+
+            60% {
+                transform: rotate(180deg) scale(0.8);
+            }
+
+            100% {
+                transform: rotate(360deg) scale(1);
+            }
+        }
+
+        div {
+            animation-name: imageAnimation;
+            animation-duration: 10s;
+            animation-iteration-count: infinite;
+        }
+
+        div:hover {
+            transform: skew(20deg);
+            transition: 5s;
+        }
+    </style>
+</head>
+
+<body>
+    <div>
+        <img src="https://media.licdn.com/dms/image/C4E03AQH-kqZfLArx9A/profile-displayphoto-shrink_800_800/0/1637230739830?e=2147483647&v=beta&t=XimvCy1kY8PmSalzpjPpP6LdlqKFsjIlESOJ-AF_880"
+            alt="">
+    </div>
+</body>
+
+</html>
